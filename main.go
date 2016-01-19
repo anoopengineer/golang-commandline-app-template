@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/anoopengineer/golang-commandline-app-template/log"
+)
 
 const APPNAME = "YOUR_APP_NAME_HERE"
 
@@ -10,5 +14,5 @@ var (
 )
 
 func main() {
-	fmt.Printf("Application starting up. AppName = %s, Version = %s, BUILD_DATE = %s\n", APPNAME, VERSION, BUILD_DATE)
+	log.Error(fmt.Sprintf("Application starting up. AppName = %s, Version = %s, BUILD_DATE = %s", APPNAME, VERSION, BUILD_DATE))
 }
