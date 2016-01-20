@@ -1,0 +1,11 @@
+{
+	"TaskSettings": {
+		"publish-github": {
+			"apihost": "https://<CUSTOM_GITHUB_URL>/api/v3",
+			"owner": "<USERNAME_HERE>",
+			"repository": "<PROJECTNAME>",
+			"apikey": "<API_KEY_HERE>"
+		}
+	},
+	"ConfigVersion": "0.9"
+}
